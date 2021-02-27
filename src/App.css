@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+   background-color: #242423;
+}
+
+
+.card {
+  margin: 2em;
+   padding: 1em 3em;
+ box-shadow: 5px 5px 19px black;
+ border-radius: 0.5em;
+  width: 85%;
+  display: flex;
+}
+.card img {
+  box-shadow: 1px 2px 5px black;
+
+
+}
+.description {
+  color: white;
+  margin: 5em;
+  text-shadow: 1px 2px 9px black; 
+
+}
+
+.title { margin: 1em;
+  display: flex;
+}
+.star {
+  margin-left: 1em ;
+}
+.searchlist { 
+  color: #ef233c;
+  margin: 2em;
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+.searchlist p {   
+  font-weight: bolder;
+  font-size: 2em;
+  text-shadow: 10px 3px 7px black; 
+}
+.searchdetails {
+  display: flex;
+  margin: 2em;
+}
+.search {
+  margin: 0 2em;
+}
+.searchdetails input {  
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 3px;
+  background-color: #242423;
+  width: 125%;
+}
+
+
+.addcard {   
+  color: #ef233c;
+   margin: 7em;
+  padding: 9em;
+ box-shadow: 5px 5px 9px black;
+ border-radius: 0.5em;
+}
+.adddetails {
+  display: flex;
+   margin-bottom: 2em;
+}
+.adddetails p {
+  font-size: 1.5em;
+   margin-right: 3em;
+}
+.adddetails input { 
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 3px;
+  background-color: #242423;
+  height: 25px;
+  width: 30%;
+}
+.addbtn { 
+  width: 50%;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight:bolder;
+  padding: 7px;
+  background-color: black ;
+  color:#ef233c ;
+  border-radius: 1em ;
+}
+.addmovie { margin: 1em;
+  display: flex;
+  justify-content: center;
+}
+.addmovie p { margin-right: 1em;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: 0px 0px 1px black;
+}
+.button {
+  width: 25%;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight:bolder;
+  padding: 7px;
+  background-color: black ;
+  color:#ef233c ;
+  border-radius: 1em ;
+}
+
+
+
+.trailerdetails {
+     background-color: black ;
+padding: 3em;
+  margin: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trailerbtn {  border: none;
+padding: 7px;
+font-size: 1em;
+  color: #ef233c;
+  cursor: pointer;
+  background-color: black;
+
+  font-size: 1em;
+}
+.trailerdetails p ,h4 {
+  background-color: black;
+}
+#trailertitle { color: #ef233c;
+  margin: 7px;
+}
+#trailerdescription { color: white;
+}
+
+
+
+::-webkit-scrollbar { 
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px black; 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
